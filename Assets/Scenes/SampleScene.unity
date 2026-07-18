@@ -271,7 +271,7 @@ Transform:
   m_GameObject: {fileID: 51725035}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 24.8, y: 0.5, z: -22.6}
+  m_LocalPosition: {x: 25.29, y: 0.5, z: -22.6}
   m_LocalScale: {x: 16.393341, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9193,7 +9193,7 @@ Transform:
   m_GameObject: {fileID: 1163315785}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.5, y: 0.5, z: -3.1}
+  m_LocalPosition: {x: -5.06, y: 0.5, z: -3.1}
   m_LocalScale: {x: 17.797934, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11095,8 +11095,8 @@ Transform:
   m_GameObject: {fileID: 1395465165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 0.5, z: -29.3}
-  m_LocalScale: {x: 53.594162, y: 1, z: 4}
+  m_LocalPosition: {x: -0.2, y: 0.5, z: -29.3}
+  m_LocalScale: {x: 54.483826, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1993726789}
@@ -13619,30 +13619,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemyall
   allEnemySett:
-  - name: 
-    speed: 0
-    attribute: 
-    attackpower: 0
-  - name: 1
+  - name: q
     speed: 10
-    attribute: q
+    attribute: 0
     attackpower: 5
-  - name: 2
-    speed: 11
-    attribute: w
-    attackpower: 0
-  - name: 3
-    speed: 12
-    attribute: e
-    attackpower: 0
-  - name: 4
-    speed: 13
-    attribute: r
-    attackpower: 0
-  - name: 5
-    speed: 14
-    attribute: t
-    attackpower: 0
+  - name: w
+    speed: 15
+    attribute: 0
+    attackpower: 10
+  - name: e
+    speed: 20
+    attribute: 0
+    attackpower: 15
+  - name: r
+    speed: 25
+    attribute: 0
+    attackpower: 20
 --- !u!4 &1739189761
 Transform:
   m_ObjectHideFlags: 0
@@ -16801,7 +16793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b98ce65f398744c81b70d07afbbb28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  speed: 10
   base1: {fileID: 370877899}
   enemyall: {fileID: 1739189760}
 --- !u!1660057539 &9223372036854775807

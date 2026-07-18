@@ -2,8 +2,7 @@
 
 public class Enemy : MonoBehaviour {
 
-    public float speed = 10f;
-
+    private float speed;
     private Transform target;
     private int wavepointIndex = 0;
     public Base base1;
@@ -12,7 +11,7 @@ public class Enemy : MonoBehaviour {
     void Start ()
     {
         target = waypoints.points[0];
-        
+        speed = enemyall.allEnemySett[1].speed;
     }
 
     void Update()
