@@ -12,11 +12,15 @@ public class Enemyall : MonoBehaviour
         [SerializeField] public int attackpower;//공경력
     }
     
-    public Enemy[] allEnemySett;
+    public Enemy[] allEnemySetting;
     public enum Attributre//속성을 열거형으로 정리
     {
         Water,//물
         Fire,//불
         Air//공기
+    }
+    public enum allEnemtnumbers
+    {
+        q,w,e,r
     }
 }

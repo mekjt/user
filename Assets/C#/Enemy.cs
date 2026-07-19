@@ -7,11 +7,12 @@ public class Enemy : MonoBehaviour {
     private int wavepointIndex = 0;
     public Base base1;
     public Enemyall enemyall;
+    public Enemyall.allEnemtnumbers enemtnumbers;
 
     void Start ()
     {
         target = waypoints.points[0];
-        speed = enemyall.allEnemySett[1].speed;
+        speed = enemyall.allEnemySetting[(int)enemtnumbers].speed;
     }
 
     void Update()
@@ -25,13 +26,14 @@ public class Enemy : MonoBehaviour {
         }
     }
 
+
     void GetNextWaypoint()
     {
         wavepointIndex++;
         target = waypoints.points[wavepointIndex];
         if (wavepointIndex >= waypoints.points.Length - 1) 
         {
-            base1.Bhp = base1.Bhp - enemyall.allEnemySett[1].attackpower; 
+            base1.Bhp = base1.Bhp - enemyall.allEnemySetting[(int)enemtnumbers].attackpower; 
             Destroy(gameObject);
         }
     }
