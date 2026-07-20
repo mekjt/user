@@ -16558,18 +16558,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 5246424395269634138, guid: 48270b9db809a77478fc5894fb191992, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5246424395269634138, guid: 48270b9db809a77478fc5894fb191992, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a84adb4e2d08d044baea857694dfccaa, type: 2}
-    - target: {fileID: 8044144602263845943, guid: 48270b9db809a77478fc5894fb191992, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.83
-      objectReference: {fileID: 0}
     - target: {fileID: 8044144602263845943, guid: 48270b9db809a77478fc5894fb191992, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.09
