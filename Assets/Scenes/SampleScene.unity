@@ -16735,7 +16735,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
       propertyPath: allEnemySetting.Array.size
-      value: 0
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[0].Ehp
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[1].Ehp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[2].Ehp
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[3].Ehp
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[0].name
+      value: "\uCC3D\uADC0"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[1].name
+      value: "\uBB3C\uADC0\uC2E0"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[2].name
+      value: "\uC9C0\uADC0"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[3].name
+      value: "\uCC98\uB140 \uADC0\uC2E0"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[0].speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[1].speed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[2].speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[3].speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[0].attribute
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[2].attribute
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[3].attribute
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[0].attackpower
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[1].attackpower
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[2].attackpower
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.data[3].attackpower
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16887,7 +16963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   base1: {fileID: 370877899}
   enemyall: {fileID: 1739189760}
-  enemtnumbers: 1
+  enemtnumbers: 0
 --- !u!1001 &7689346716668859592
 PrefabInstance:
   m_ObjectHideFlags: 0

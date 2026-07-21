@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
     private float speed;
+    private int EnemyHp;
     private Transform target;
     private int wavepointIndex = 0;
     public Base base1;
@@ -13,6 +15,7 @@ public class Enemy : MonoBehaviour {
     {
         target = waypoints.points[0];
         speed = enemyall.allEnemySetting[(int)enemtnumbers].speed;
+        EnemyHp = enemyall.allEnemySetting[(int)enemtnumbers].Ehp;
     }
 
     void Update()

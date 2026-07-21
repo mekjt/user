@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class Base : MonoBehaviour
@@ -19,6 +19,5 @@ public class Base : MonoBehaviour
         {
             Application.Quit();
         }
-        Debug.Log(Bhp);
     }
 }
