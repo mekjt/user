@@ -1,27 +1,27 @@
 using UnityEngine;
 
-public class Enemyall : MonoBehaviour
+public class NewMonoBehaviourScript : MonoBehaviour
 {
     [System.Serializable]//직렬화
-    
-    public class Enemy//적 클래스 선언
+
+    public class Tower//타워 클래스 선언
     {
         [SerializeField] public string name;//이름
-        [SerializeField] public float speed;//이동속도
         [SerializeField] public Attributre attribute;//속성
         [SerializeField] public int attackpower;//공경력
-        [SerializeField] public int Ehp;//채력
+        [SerializeField] public int Time;//쿨타임
     }
-    
-    public Enemy[] allEnemySetting;
+
+    public Tower[] allTowerSetting;
     public enum Attributre//속성을 열거형으로 정리
     {
-        Water,//물
+        weakening,//약화
         Fire,//불
-        Air//공기
+        Light,//빛
+        extinction//소멸
     }
-    public enum allEnemtnumbers
+    public enum allTowernumbers
     {
-        q,w,e,r
+        Exorcist, psychic, Exorcist2, psychic2
     }
 }
