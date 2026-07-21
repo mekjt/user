@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemyall : MonoBehaviour
 {
@@ -18,10 +18,10 @@ public class Enemyall : MonoBehaviour
     {
         Water,//물
         Fire,//불
-        Air//공기
+        Resentment//원념
     }
     public enum allEnemtnumbers
     {
-        q,w,e,r
+        창귀,물귀신,지귀,처녀귀신
     }
 }

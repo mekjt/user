@@ -16733,6 +16733,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7739498037549814562, guid: b9bf7b6059b17504bb624a15d354f5a9, type: 3}
+      propertyPath: allEnemySetting.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16895,6 +16899,22 @@ PrefabInstance:
     - target: {fileID: 5516402993596376175, guid: ce10c255bf7d60c4395549a71d22858c, type: 3}
       propertyPath: m_Name
       value: Tower manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778049834194449241, guid: ce10c255bf7d60c4395549a71d22858c, type: 3}
+      propertyPath: allTowerSetting.Array.data[2].Time
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778049834194449241, guid: ce10c255bf7d60c4395549a71d22858c, type: 3}
+      propertyPath: allTowerSetting.Array.data[3].Time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778049834194449241, guid: ce10c255bf7d60c4395549a71d22858c, type: 3}
+      propertyPath: allTowerSetting.Array.data[1].attribute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778049834194449241, guid: ce10c255bf7d60c4395549a71d22858c, type: 3}
+      propertyPath: allTowerSetting.Array.data[3].attribute
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9059732083218879103, guid: ce10c255bf7d60c4395549a71d22858c, type: 3}
       propertyPath: m_LocalPosition.x
