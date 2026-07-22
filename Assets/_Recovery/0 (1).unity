@@ -16691,7 +16691,7 @@ PrefabInstance:
       objectReference: {fileID: 7689346716668859593}
     - target: {fileID: 1614712078964270171, guid: f335c175d7643924194c49504cb849f7, type: 3}
       propertyPath: allTowernumbers
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3587257285683918495, guid: f335c175d7643924194c49504cb849f7, type: 3}
       propertyPath: m_Name
