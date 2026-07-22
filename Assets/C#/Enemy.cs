@@ -4,7 +4,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     private float speed;
-    private int EnemyHp;
+    public int EnemyHp;
     private Transform target;
     private int wavepointIndex = 0;
     public Base base1;
@@ -26,6 +26,10 @@ public class Enemy : MonoBehaviour {
         if(Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
             GetNextWaypoint();
+        }
+        if(EnemyHp <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

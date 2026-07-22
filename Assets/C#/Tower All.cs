@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Towerall : MonoBehaviour
 {
     [System.Serializable]//직렬화
 
@@ -22,6 +22,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     }
     public enum allTowernumbers
     {
-        Exorcist, psychic, Exorcist2, psychic2
+        퇴마사,무당,구마사제,영매사
     }
 }
