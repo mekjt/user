@@ -9,10 +9,8 @@ public class Tower : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(enemytrigger = other.GetComponent<Enemy>())
-        {
-            Debug.Log("경고!!!!");
-        }
+        enemytrigger = other.GetComponent<Enemy>();
+
 
     }
 }
