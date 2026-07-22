@@ -5,6 +5,8 @@ public class Enemy : MonoBehaviour {
 
     private float speed;
     public int EnemyHp;
+
+    public int Enemyattackpower;
     private Transform target;
     private int wavepointIndex = 0;
     public Base base1;
@@ -16,6 +18,7 @@ public class Enemy : MonoBehaviour {
         target = waypoints.points[0];
         speed = enemyall.allEnemySetting[(int)enemtnumbers].speed;
         EnemyHp = enemyall.allEnemySetting[(int)enemtnumbers].Ehp;
+        Enemyattackpower = enemyall.allEnemySetting[(int)enemtnumbers].attackpower;
     }
 
     void Update()
@@ -31,6 +34,7 @@ public class Enemy : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        Debug.Log(EnemyHp);
     }
 
 
