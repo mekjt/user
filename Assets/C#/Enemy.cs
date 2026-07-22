@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour {
 
     private float speed;
     public int EnemyHp;
+    public string Ae;
 
     public int Enemyattackpower;
     private Transform target;
