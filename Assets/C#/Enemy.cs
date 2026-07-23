@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-        Debug.Log(EnemyHp);
+        
     }
 
 

@@ -1,35 +1,29 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-public class towerplacement: MonoBehaviour
-{
 public class TowerPlacement : MonoBehaviour
 {
     private Camera mainCamera;
+    private RaycastHit Hit;
 
     private void Awake()
     {
         mainCamera = Camera.main;
+        mainCamera.ScreenPointToRay(Input.mousePosition);
     }
 
     void Update()
     {
-     if (Mouse.current == null) return;
 
-        if (Mouse.current.leftButton.wasPressedThisFrame || Mouse.current.rightButton.wasPressedThisFrame)//마우스 좌측 또는 우측이 이번 프레임에 눌렸음
+        // 마우스 좌클릭이 처음 들어온 순간 (GetMouseButtonDown과 같음)
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
-            Vector3 mousePosition = Mouse.current.position.ReadValue();
-            Ray ray = mainCamera.ScreenPointToRay(mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hit))
-            {
-                if (hit.transform == this.transform)
-                {
-                    Debug.Log("뉴 인풋 시스템 레이캐스트로 클릭 감지!");
-                }
-            }
+            Debug.Log("마우스 클릭됨!");
+            
+            Vector2 mousePos = Mouse.current.position.ReadValue();
+            Debug.Log($"마우스 좌표: {mousePos}");
         }
     }
-}
+} 
 
-}
